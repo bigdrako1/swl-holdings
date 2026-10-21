@@ -1,0 +1,22 @@
+:root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #24251f; background: #f4f1e9; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1440px; min-height: 100svh; margin: auto; padding: clamp(40px, 7vw, 112px); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(56px, 8vw, 140px); align-items: center; }
+.identity { align-self: start; padding-top: 15px; }
+img { display: block; width: 100%; max-width: 480px; height: auto; mix-blend-mode: multiply; }
+article { max-width: 510px; padding-block: 15px; }
+h1 { margin: 0 0 42px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; }
+p { margin: 0 0 24px; font-size: clamp(18px, 1.65vw, 23px); line-height: 1.6; letter-spacing: -.018em; }
+footer { margin-top: 48px; font-size: 14px; line-height: 1.7; }
+footer strong, footer span { display: block; }
+footer strong { font-size: 16px; font-weight: 700; }
+footer span { color: #626358; }
+@media (max-width: 760px) {
+  main { display: block; padding: 44px 28px 56px; }
+  .identity { padding-top: 0; margin-bottom: 72px; }
+  img { width: min(76%, 310px); }
+  article { max-width: 540px; }
+  h1 { margin-bottom: 30px; }
+  p { font-size: 19px; }
+  footer { margin-top: 36px; }
+}
