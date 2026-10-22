@@ -6,7 +6,7 @@ Published on 21/10/2026 using GitHub Pages. Custom domain `swltrust.com` was att
 and its authoritative DNS updated on 22/10/2026; HTTPS issuance is still pending.
 The owner authorised making this holding-page repository public; no application code or
 private company documents are included. The default and sole permitted deployment branch
-is `main`. The supplied logo and founder's note are the only visible page content.
+is `main`. The supplied logo, founder's note and user-confirmed contact details are the visible content.
 
 ## Preview
 
@@ -52,3 +52,17 @@ render and there is no horizontal overflow. The logo SVG is byte-identical to th
 
 DNS cutover is saved; secure custom-domain browser verification is pending TLS issuance. Do not include
 personal BRS records, secrets, or private profiles in this repository.
+
+## Black centred redesign — 22/10/2026
+
+The page uses the supplied white SVG (`assets/soowoolife-white.svg`) unchanged on black,
+with centred hierarchy, the exact revised founder copy signed Drako, and user-confirmed
+`info@swltrust.com` / +254 713 599 320 email, phone and WhatsApp links. Typography uses
+DM Sans, identical to Kadi Yangu, self-hosted with its SIL Open Font License in assets/fonts.
+No unlicensed Foundation Sans demo files are bundled. The default font is DM Sans throughout.
+
+Browser verification: actual 1440x1000 desktop and 480x844 mobile viewports; no horizontal
+overflow, logo loaded, font loaded. The preview browser's viewport override was reset.
+The supplied SVG SHA-256 is d84bef6a901e62cf0a8f175dacda4a4d4f6ea1f67a2146dd189e7e337f7d0ad7.
+The Pages metadata source branch was aligned to main; build type remains workflow.
+TLS remains a separate release check; do not bypass certificate warnings.
