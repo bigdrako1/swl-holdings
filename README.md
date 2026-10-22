@@ -9,7 +9,8 @@ contact details.
 
 ## Local development
 
-A static site built with HTML and CSS. No build tools or dependencies are required.
+A static site built with HTML, CSS and a small JavaScript pointer effect. No build tools
+or dependencies are required.
 
 ```sh
 python3 -m http.server 3180 --bind 127.0.0.1

@@ -14,7 +14,26 @@
   -webkit-font-smoothing: antialiased;
 }
 * { box-sizing: border-box; }
-body { margin: 0; }
+body { margin: 0; isolation: isolate; }
+.torch {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(360px circle at var(--torch-x, 50%) var(--torch-y, 30%), #b49b7730, #85715413 48%, transparent 100%);
+}
+.torch::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("assets/torch-contours.svg") center / 1200px 1000px repeat;
+  mask-image: radial-gradient(320px circle at var(--torch-x, 50%) var(--torch-y, 30%), #000, transparent 100%);
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .torch { transition: opacity .5s ease; }
+  .torch.is-lit { opacity: 1; }
+}
 ::selection { color: #050505; background: #d7c5a7; }
 main { width: min(100%, 1120px); margin: auto; padding: 36px 64px 40px; text-align: center; }
 .masthead { margin: 0 auto; }
