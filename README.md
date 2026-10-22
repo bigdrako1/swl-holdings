@@ -2,14 +2,14 @@
 
 Music, media and tech. Live from Nairobi.
 
-The official SooWooLife Holdings website, featuring a founder’s note from Drako and
-contact details.
+The official SooWooLife Holdings website, featuring a founder’s note from Drako,
+the group’s brands and projects, and contact details.
 
 **[swltrust.com](https://swltrust.com/)**
 
 ## Local development
 
-A static site built with HTML, CSS and a small JavaScript pointer effect. No build tools
+A static site built with HTML, CSS and small JavaScript interactions. No build tools
 or dependencies are required.
 
 ```sh
@@ -25,5 +25,7 @@ uses HTTPS; `www.swltrust.com` redirects to `swltrust.com`.
 
 ## Assets
 
-The website uses the original SooWooLife Holdings logo and self-hosted DM Sans.
+The website uses supplied SooWooLife, Drako, Msanii and Kibra Rovers marks, with
+DM Sans wordmarks for Kadi Yangu and SWL Films. The Records variant retains the
+SooWooLife script. The page uses self-hosted DM Sans.
 The font’s [SIL Open Font License](assets/fonts/OFL.txt) is included in the repository.
