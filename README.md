@@ -5,7 +5,7 @@ Music, media and tech. Live from Nairobi.
 The official SooWooLife Holdings website, featuring a founder’s note from Drako,
 the group’s brands and projects, and contact details.
 
-**[swltrust.com](https://swltrust.com/)**
+**[swltrust.com](https://www.swltrust.com/)**
 
 ## Local development
 
@@ -21,7 +21,7 @@ Open [localhost:3180](http://localhost:3180/).
 ## Deployment
 
 Changes pushed to `main` are published automatically to GitHub Pages. The custom domain
-uses HTTPS; `www.swltrust.com` redirects to `swltrust.com`.
+uses HTTPS; `swltrust.com` redirects to `www.swltrust.com`.
 
 ## Assets
 
